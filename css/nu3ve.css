@@ -1,0 +1,62 @@
+/* by Nu3veAlmaS*/
+* { }
+
+html, body { }
+
+body {
+	background: black;
+	color: white;
+	font-size: 25px;
+	margin: 0;
+	padding: 60px 0 0 0;
+	font-family: sans-serif;
+}
+
+.cabecera {
+	width: 100%;
+	background: red;
+	height: 40px;
+	position: fixed;
+	top: 0;
+	padding: 15px 20px;
+    border-bottom: 2px solid #303030;
+    text-align: center;
+    color: black;
+    font-family: courier;
+    font-size: 29px;
+}
+
+.centrar {
+	margin: 0px auto;
+    width: 100%;
+}
+
+.enlaces {
+	display: inline-block;
+	margin-right: 50px;
+	position: relative;
+	top: 30px;
+	margin-left: 45px;
+}
+
+.piePagina {
+	text-align: center;
+	top: 300px;
+	position: relative;
+}
+/* SCREEN */
+
+@media screen and (min-width: 768px) {
+
+	.centrar {
+
+	}
+
+	.enlaces {
+
+	}
+
+	.piePagina {
+
+	}
+}
